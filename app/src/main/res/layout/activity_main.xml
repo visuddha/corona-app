@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:divider="?android:attr/listDivider">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015082"
+            android:text="COVID - 19"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dfdfdf"
+            android:text="Sri Lanka - Daily Situation"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3f3f3f"
+            android:text="23.03.2019 - 10.00 am"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/tot_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="245"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="45sp"
+                android:layout_alignParentLeft="true"
+                android:padding="20dp"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:id="@+id/tot_des"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tot_num_img"
+                android:padding="5dp"
+                android:text="Total number of individuals in hospitals"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:id="@+id/tot_num_img"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/data01"
+                android:padding="20dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/tot_cases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="77"
+                android:textColor="#000000"
+                android:textSize="45sp"
+                android:layout_alignParentLeft="true"
+                android:padding="20dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/tot_cases_des"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tot_cases_img"
+                android:padding="5dp"
+                android:text="Totak Confirmed"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/tot_cases_img"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/data02"
+                android:padding="20dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/tot_new_cases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textColor="#000000"
+                android:textSize="45sp"
+                android:layout_alignParentLeft="true"
+                android:padding="20dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/tot_new_cases_des"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tot_new_cases_img"
+                android:padding="5dp"
+                android:text="New Cases"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/tot_new_cases_img"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/data03"
+                android:padding="20dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/tot_dealth_cases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="45sp"
+                android:layout_alignParentLeft="true"
+                android:padding="20dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/tot_dealth_cases_des"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tot_dealth_cases_img"
+                android:padding="5dp"
+                android:text="Deaths"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/tot_dealth_cases_img"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/data04"
+                android:padding="20dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/tot_recovered_cases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textColor="#000000"
+                android:textSize="45sp"
+                android:layout_alignParentLeft="true"
+                android:padding="20dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/tot_recovered_cases_des"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tot_recovered_cases_img"
+                android:padding="5dp"
+                android:text="Recovered And Discharged"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/tot_recovered_cases_img"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/data05"
+                android:padding="20dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
