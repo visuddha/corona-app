@@ -38,12 +38,13 @@
             android:layout_gravity="center"/>
 
         <TextView
+            android:id="@+id/report_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#3f3f3f"
             android:text="23.03.2019 - 10.00 am"
             android:textColor="#ffffff"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:padding="10dp"
             android:textAlignment="center"
