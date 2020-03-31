@@ -1,4 +1,4 @@
-# corona-app
+# Lanakan Report App
 
 Android Mobile Application See Daily Corona Virus Update
 
