@@ -1,5 +1,3 @@
 # Lanakan Report Mobile App
 
-Android Mobile Application See Daily Corona Virus Update
-
-Need to rename the app name to avoid Playstore submission requirements.
+Android Mobile Application See the pandamic information released by the government information API on the covid-19 panadamic. 
